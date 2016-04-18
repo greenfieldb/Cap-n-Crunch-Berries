@@ -18,7 +18,7 @@ body{
     margin-right: 150px;
     margin-left: 80px;
 }
-}
+
 /* set the default color, font-size, and line height */
 html {
   color: #333;
@@ -54,10 +54,8 @@ h1 {
 table{
   color: white;
 }
-}
 
 
-}
 
 h2 {
   font-size: 50px;
@@ -106,7 +104,7 @@ table, th, td{
   color: black;
   border: 2px solid black;
   }
-}
+
 /* =======================================
     author styles
     place your custom styles below here
