@@ -1,0 +1,186 @@
+/* =======================================
+    style.css
+    use this file for your custom styles
+========================================== */
+
+/* use a box model that makes sense */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #FFE545;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+}
+/* set the default color, font-size, and line height */
+html {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1200px; /* change this width to make a wider page!*/
+  padding: 0 1em; /* 1em of padding on the left and right side */
+}
+
+/* make images and embedded media fluid */
+img,
+object {
+  max-width: 100%;
+}
+
+div{
+  margin-left: 0px;
+}
+
+/* type hierarchy- change for your project */
+h1 {
+  font-size: 20px;
+  color: white;/* 48px */
+  margin: 0px;
+  margin-left: 0px;
+
+table{
+  color: white;
+}
+}
+
+
+}
+
+h2 {
+  font-size: 50px;
+  color: #FA023C;*/
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.bodyimg{
+  margin: 0px;
+  padding: 0px;
+}
+h3 {
+  font-size: 1.75em /* 28px */
+}
+
+h4 {
+  font-size: 1.125em /*18px */
+}
+
+p{
+  font-size: 45px;
+  color: red;
+  margin-left: 50px;
+
+}
+
+p{
+   font-family: 'GrundschriftBold';
+   font-weight: bold;
+   font-style: normal;
+}
+/* navigation list styles */
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  font-size: 45px;
+  color: red;
+}
+
+table, th, td{
+  color: black;
+  border: 2px solid black;
+  }
+}
+/* =======================================
+    author styles
+    place your custom styles below here
+========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================
+    Layout
+    keep this at the bottom
+========================================== */
+
+@media (min-width: 620px) {
+  .column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .column.full {
+    width: 100%;
+  }
+
+  .column.two-thirds {
+    width: 66.7%;
+  }
+
+  .column.half {
+    width: 50%;
+  }
+
+  .column.third {
+    width: 33.3%;
+  }
+
+  .column.fourth {
+    width: 25%;
+  }
+
+  .column.flow-opposite {
+    float: right;
+  }
+}
+
+
+/* row used as a clearfix to clear floats */
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.row {
+  *zoom: 1;
+}
